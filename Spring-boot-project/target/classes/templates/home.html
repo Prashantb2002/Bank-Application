@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en"
+      xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Bank Home Page</title>
+    <link rel="stylesheet" th:href="@{/css/demo.css}"/>
+    <script src="https://kit.fontawesome.com/81adec4cd0.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div class="start">
+    <nav>
+        <h1 class="heading">Virtual Bank</h1>
+        <ul class="list-items">
+            <li><a th:href="@{/home}">Home</a></li>
+            <li><a th:href="@{/about}">About</a></li>
+            <li><a th:href="@{/contact}">Contact</a></li>
+            <li><a th:href="@{/login}">Login</a></li>
+        </ul>
+    </nav>
+</div>
+<div class="images">
+    <img src="https://img.freepik.com/free-photo/observation-urban-building-business-steel_1127-2397.jpg" alt="Loading">
+    <div class="text">Banking on your finger tips</div>
+</div>
+<div class="feature">
+    <div class="create">
+        <i class="fa-solid fa-user"></i>
+        CREATE ACCOUNT
+        <button th:onclick="|window.location.href='@{/register}'|">CREATE</button>
+
+    </div>
+    <div class="deposit">
+        <i class="fa-solid fa-building-columns"></i>
+        DEPOSIT MONEY
+        <button>DEPOSIT</button>
+    </div>
+    <div class="withdraw">
+        <i class="fa-solid fa-sack-dollar"></i>
+        WITHDRAW MONEY
+        <button>WITHDRAW</button>
+    </div>
+    <div class="check">
+        <i class="fa-solid fa-money-check"></i>
+        CHECK BALANCE
+        <button>CHECK</button>
+    </div>
+</div>
+
+</body>
+</html>

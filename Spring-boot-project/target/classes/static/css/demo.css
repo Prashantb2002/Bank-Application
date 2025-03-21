@@ -1,0 +1,142 @@
+h2{
+    text-align: center;
+    font-size: 28px;
+}
+
+nav{
+    height: 34px;
+    border-radius: 1px;
+}
+
+ul{
+       display: flex;
+       justify-content: flex-end;
+       gap: 40px;
+       margin-top: -40px;
+       margin-right: 40px;
+       font-size: 18px;
+       list-style: none;
+       margin-right:30px;
+}
+
+.feature{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2px;
+    height: 200px;
+    gap: 30px;
+}
+
+a{
+  text-decoration: none;
+}
+
+.create, .deposit, .withdraw, .check{
+    display: flex;
+    flex-direction: column;
+    height: 160px;
+    width: 160px;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+}
+
+.heading{
+margin-left: 110px;
+margin-top: 22px;
+font-size: 22px
+}
+
+.images{
+height: 430px;
+margin-top: 22px;
+overflow: hidden;
+}
+
+.images img {
+     width: 100%;
+     height: 124%; /* Keeps aspect ratio */
+     object-fit: cover;
+ }
+
+ .text {
+     position: absolute;
+     color: white;
+     font-size: 48px;
+     font-weight: bold;
+     text-shadow: 4px 1px 5px black;
+     margin-top: -417px;
+     margin-left: 320px;
+ }
+
+ i{
+ font-size: 45px;
+ }
+
+ .info{
+  display: flex;
+           flex-direction: row;
+           justify-content: center;
+           height: 633px;
+           width: 100%;
+           background: #79727269;
+           gap: 81px;
+ }
+
+ .info-text{
+ text-align: start;
+     height: 327px;
+     width: 48%;
+     margin-top: 44px;
+     margin-left: 0px;
+ }
+
+ .meta-info{
+       display: flex;
+           flex-direction: column;
+           height: 400px;
+           width: 24%;
+           margin-top: 190px;
+           margin-left: 7px;
+           gap: 7px;
+ }
+
+ .meta-info button{
+  height: 100%;
+     border: 2px solid black;
+     background: #c3c3c6a3;
+     font-weight: bold;
+ }
+
+ .about-footer{
+     height: 250px;
+     width: 100%;
+     background: #00009d;
+     color: beige;
+     display: inline-flex;
+     flex-direction: column
+ }
+
+ .disclosure, .sub-title{
+ margin-left: 70px;
+ }
+
+ .about-icons{
+     display: flex;
+     height: 67px;
+     align-content: stretch;
+     align-items: center;
+     gap: 47px;
+     margin-left: 61px;
+ }
+
+ .about-icons button{
+     background: none;
+     border: none;
+     padding: 0;
+     margin: 0;
+     color: inherit;
+     font: inherit;
+     cursor: pointer;
+ }

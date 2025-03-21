@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en"
+      xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta charset="UTF-8">
+  <title>About Page</title>
+  <link rel="stylesheet" th:href="@{/css/demo.css}"/>
+  <script src="https://kit.fontawesome.com/81adec4cd0.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div>
+  <nav>
+    <h1 class="heading">Virtual Bank</h1>
+    <ul class="list-items">
+      <li><a th:href="@{/home}">Home</a></li>
+      <li><a th:href="@{/about}">About</a></li>
+      <li><a th:href="@{/contact}">Contact</a></li>
+      <li><a th:href="@{/login}">Login</a></li>
+    </ul>
+  </nav>
+</div>
+<div class="info">
+  <div class="info-text">
+    The Bank Management System is a Spring Boot-based project designed for learning purposes.
+    It allows users to deposit, withdraw, and check their account balance.
+    The system uses JPA for database interactions and follows a modular structure with Spring MVC and REST APIs.
+    This project helps in understanding backend development, database management, and API integration in a real-world banking scenario.
+    he system follows a layered architecture (Controller, Service, Repository) to ensure maintainability and scalability.
+    Exception handling and logging are integrated for debugging and better error management.
+    The project can be extended by adding features like transaction history, fund transfers, and account statements.
+    It serves as a great hands-on learning experience for backend development, database management, and API integration in a real-world scenario.
+  </div>
+  <div class="meta-info">
+    <button>History</button>
+    <button>Policies</button>
+    <button>Application</button>
+    <button>Schemes</button>
+    <button>Loan</button>
+    <button>Other</button>
+  </div>
+</div>
+<div class="about-footer">
+  <h4 class="disclosure">Disclosure</h4>
+  <h4 class="sub-title">Loans and lines of credit are offered by Virtual bank. Deposit products are offered by Virtual bank
+</h4>
+  <div class="about-icons">
+    <button>
+      <i class="fa-brands fa-facebook"></i>
+    </button>
+    <button>
+      <i class="fa-brands fa-instagram"></i>
+    </button>
+    <button>
+      <i class="fa-brands fa-x-twitter"></i>
+    </button>
+  </div>
+
+
+</div>
+</body>
+</html>
